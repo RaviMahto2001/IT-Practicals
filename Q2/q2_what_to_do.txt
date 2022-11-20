@@ -1,0 +1,10 @@
+run these commands on the system.
+
+ping
+using any domain name or IP address
+
+tracert
+using the above used domain name or IP address
+
+netstat 
+for the network statistics

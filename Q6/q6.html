@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Q6</title>
+    <link rel="stylesheet" href="q6.css">
+</head>
+
+<body>
+    <h2>PET'S DETAILS</h2>
+    <div class="d1">
+        <form id="f1">
+            <div class="row">
+                <div class="col-25">
+                    <label for="pname" id="p1"><b>Pet's Name<b></label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="pname" name="petname" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="page" id="p2"><b>Pet's Age<b></label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="page" name="petage" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="pweight" id="p3"><b>Pet's Weight<b></label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="pweight" name="petweight" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="ptype" id="p4"><b>Pet's Type<b></label>
+                </div>
+                <div class="col-75">
+                    <select id="ptype" name="pettype">
+                        <option value="None" selected disabled hidden>Select an Option</option>
+                        <option value="Dog">Dog</option>
+                        <option value="Cat">Cat</option>
+                        <option value="Rabbit">Rabbit</option>
+                        <option value="Bird">Bird</option>
+                        <option value="Fish">Fish</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="plike" id="p5"><b>Pet's Likes<b></label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="plike" name="petlike" />
+                </div>
+            </div>
+            <div class=row>
+                <input type="submit" value="Submit" />
+            </div>
+        </form>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="q6.js"></script>
+</body>
+
+</html>

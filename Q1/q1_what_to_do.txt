@@ -1,0 +1,11 @@
+run ipconfig in cmd
+write IPV4 address and subnet mask
+
+IPV4 Address : a.b.c.d
+Subnet Mask : 255.0.0.0 / 255.255.0.0 / 255.255.255.0
+
+Network Address : a.0.0.0 / a.b.0.0 / a.b.c.0
+
+maximum number of systems possible on your network : 2^24 - 2 / 2^16 -2 / 2^8 - 2
+
+range of IP addresses available to these systems : a.0.0.1 - a.255.255.254 / a.b.0.1 - a.b.255.254 / a.b.c.1 - a.b.c.254

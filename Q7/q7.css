@@ -1,0 +1,30 @@
+body {
+    background-color: lavender;
+}
+
+h1 {
+    text-align: center;
+    color: brown;
+}
+
+div {
+    font: 17px 'Calibri';
+}
+
+table,
+th,
+td {
+    border: solid 2px black;
+    background-color: beige;
+    border-collapse: collapse;
+    padding: 2px 3px;
+    text-align: center;
+    font: 200 20px Times New Roman;
+    color: navy;
+    margin: auto;
+}
+
+th {
+    font-weight: bold;
+    color: black;
+}

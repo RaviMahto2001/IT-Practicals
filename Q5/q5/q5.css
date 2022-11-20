@@ -1,0 +1,10 @@
+#startpage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#container{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 100px 100px 100px;
+}
